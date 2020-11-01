@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenitore">
+        <h1 id="titolo">Welcome back!</h1>
+        <div id="form-login">
+            <form method="POST" action="" id="form">
+                <label for="username" class="testo">Username or email</label> 
+                <input type="text" id="username" class="dati"/>
+                <div id="feedbackUsername" class="warning"></div>
+
+                <label for="password" class="testo">Password</label>
+                <input type="password" id="password" class="dati"/>
+                <div id="feedbackPassword" class="warning"></div>
+
+                <input type="submit" class="tasto" id="submit" value="Login!"/>
+                <div id="feedbackLogin" class="warning"></div>
+            </form>
+            <div id="forgot-password"><a href="">Forgot password?</a></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/controlloDatiInseriti.js"></script>
+</body>
+</html>
