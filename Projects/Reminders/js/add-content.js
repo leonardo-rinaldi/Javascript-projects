@@ -30,7 +30,7 @@ $addButton.on("click", function() {
 
 /*
     Se clicco su un elemento ancora da completare esso verrà marcato come 
-    completo, altrimenti se lo + già verrà cancellato
+    completo, altrimenti se è già completato verrà cancellato
 */
 
 $list.on("click", 'li', function() {
